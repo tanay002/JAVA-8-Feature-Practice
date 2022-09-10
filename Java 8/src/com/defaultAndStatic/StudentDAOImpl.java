@@ -27,6 +27,7 @@ public class StudentDAOImpl implements StudentDAO
 	}
 	public static void main(String[] args) 
 	{
+		StudentDAO.displayInterfaceName();
 		StudentDAO dao=new StudentDAOImpl();
 		dao.setStudentNameByMobileNumber("9907820661","Ravikant Namdev");
 		dao.setStudentNameByMobileNumber("9098880661","Sumit Kushwah");
@@ -34,6 +35,7 @@ public class StudentDAOImpl implements StudentDAO
 		dao.setStudentNameByMobileNumber("9988820661","Kunal Namdev");
 		dao.setStudentNameByMobileNumber("90988861","kapil Kushwah");
          
+		System.out.print("\n");
 		
 		dao.printAllDetails();
 	}
