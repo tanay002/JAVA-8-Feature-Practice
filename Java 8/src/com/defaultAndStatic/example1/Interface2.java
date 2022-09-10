@@ -1,4 +1,4 @@
-package com.defaultAndStatic;
+package com.defaultAndStatic.example1;
 
 public interface Interface2 
 {

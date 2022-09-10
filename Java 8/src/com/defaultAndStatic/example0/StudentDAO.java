@@ -1,4 +1,4 @@
-package com.defaultAndStatic;
+package com.defaultAndStatic.example0;
 
 import java.util.HashMap;
 import java.util.Map;

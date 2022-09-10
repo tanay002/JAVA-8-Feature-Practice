@@ -1,4 +1,4 @@
-package com.defaultAndStatic;
+package com.defaultAndStatic.example1;
 
 public class Printer implements Interface1, Interface2
 {

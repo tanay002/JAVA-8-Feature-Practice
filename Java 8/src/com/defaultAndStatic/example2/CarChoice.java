@@ -1,4 +1,4 @@
-package com.defaultAndStatic;
+package com.defaultAndStatic.example2;
 
 public class CarChoice implements CarPicker1, CarPicker2
 {
