@@ -10,6 +10,7 @@ public interface StudentDAO
 	Map<String,String> studentDetails = new HashMap<String, String>();
 	public void getById();
 	public void fetchDetailsByCode();
+	
 	public static void displayInterfaceName()
 	{
 		System.out.println("Studennt DAO Interface");
@@ -22,13 +23,14 @@ public interface StudentDAO
 			System.out.println("Name is "+entry.getValue()+" and mobileNumber is "+entry.getKey());	
 		}
 	}
+	
 	public default void setStudentNameByMobileNumber(String mobileNumber, String name)
 	{
 		studentDetails.put(mobileNumber,name);
 
 	}
 
-	public default String getStudentNameByAadharNumber(String mobileNumber)
+	public default String getStudentNameByMobileNumber(String mobileNumber)
 	{
 		return studentDetails.get(mobileNumber);
 	}
