@@ -1,4 +1,4 @@
-package com.defaultstatic;
+package com.defaultAndStatic;
 interface StaticConcpet
 {
 	public static void m1()

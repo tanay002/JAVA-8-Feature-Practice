@@ -1,4 +1,4 @@
-package com.defaultstatic;
+package com.defaultAndStatic;
 interface Left
 {
 	default void m1()
